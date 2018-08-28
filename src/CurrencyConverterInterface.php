@@ -32,7 +32,7 @@ interface CurrencyConverterInterface
      * Get result of converting.
      *
      * @param int $currencyAmount  Amount of currency that should be converted from
-     * @return float
+     * @return float  Return result of converting
      */
     public function getConvertResult(int $currencyAmount): float;
 
