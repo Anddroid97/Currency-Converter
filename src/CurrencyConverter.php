@@ -38,4 +38,24 @@ class CurrencyConverter implements CurrencyConverterInterface
         $result = $this->exchangeRate * $currencyAmount;
         return "Given $currencyAmount $this->fromCurrency = $result $this->toCurrency";
     }
+
+
+    public function getFromCurrency(): string
+    {
+        return $this->fromCurrency;
+    }
+
+
+    public function getToCurrency(): string
+    {
+        return $this->toCurrency;
+    }
+
+
+    public function getExchangeRate(): float
+    {
+        return $this->exchangeRate;
+    }
+
+
 }
