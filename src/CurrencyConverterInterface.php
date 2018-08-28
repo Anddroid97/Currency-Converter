@@ -13,7 +13,7 @@ interface CurrencyConverterInterface
     public function convertFrom(string $currencyName): void;
 
     /**
-     * Set currency that should be converted to from converted currency ( e.g 'EUR').
+     * Set currency that should be get after converting ( e.g 'EUR').
      * How to name currency is upon you
      *
      * @param string $currencyName

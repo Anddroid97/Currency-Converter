@@ -64,17 +64,14 @@ class CurrencyConverter implements CurrencyConverterInterface, OutputCurrencyCon
         return $this->fromCurrency;
     }
 
-
     public function getToCurrency(): string
     {
         return $this->toCurrency;
     }
 
-
     public function getExchangeRate(): float
     {
         return $this->exchangeRate;
     }
-
 
 }
