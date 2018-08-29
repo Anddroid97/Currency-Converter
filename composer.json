@@ -1,7 +1,7 @@
 {
     "name": "anddroid97/currency-converter",
     "description": "A simple currency-converter",
-    "type": "project",
+    "type": "library",
     "keywords": ["currency","converter","currency-converter","CurrencyConverter","exchange rates"],
     "homepage": "https://github.com/Anddroid97/Currency-Converter",
     "license": "MIT",
